@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="assignment.android.acadgild.vibgyor.MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:background="@color/Red"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/txtViewRed" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORANGE"
+        android:gravity="center"
+        android:id="@+id/txtViewOrange"
+        android:background="@color/Orange"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_below="@+id/txtViewRed" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YELLOW"
+        android:gravity="center"
+        android:id="@+id/txtViewYellow"
+        android:background="@color/Yellow"
+        android:layout_below="@+id/txtViewOrange"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:gravity="center"
+        android:id="@+id/txtViewGreen"
+        android:background="@color/Green"
+        android:layout_below="@+id/txtViewYellow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:id="@+id/txtViewBlue"
+        android:background="@color/Blue"
+        android:gravity="center"
+        android:layout_below="@+id/txtViewGreen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="@color/White"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INDIGO"
+        android:gravity="center"
+        android:id="@+id/txtViewIndigo"
+        android:background="@color/Indigo"
+        android:layout_below="@+id/txtViewBlue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:textColor="@color/White"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIOLET"
+        android:id="@+id/txtViewViolet"
+        android:background="@color/Violet"
+        android:gravity="center"
+        android:layout_below="@+id/txtViewIndigo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
